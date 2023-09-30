@@ -1,0 +1,50 @@
+@media screen and (max-width: 576px) {
+    .wrapper {
+      width: 100%;
+      height: 100vh;
+    }
+  
+    .info_box,
+    .quiz_box,
+    .result_box {
+      width: 90%;
+      transform: translate(-50%, -50%) scale(0.9);
+    }
+  
+    .info_box .info-list,
+    .quiz_box header,
+    .quiz_box section,
+    .quiz_box footer,
+    .result_box {
+      padding: 0 10px;
+    }
+  
+    .info_box .info {
+      font-size: 15px;
+    }
+  
+    .quiz_box .que_text {
+      font-size: 20px;
+    }
+  
+    .quiz_box .option_list {
+      font-size: 17px;
+    }
+  
+    .quiz_box .next_btn {
+      font-size: 15px;
+    }
+  
+    .result_box .complete_text {
+      font-size: 18px;
+    }
+  
+    .result_box .score_text {
+      font-size: 20px;
+    }
+  
+    .result_box .buttons button {
+      font-size: 15px;
+    }
+  }
+  
